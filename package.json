@@ -1,0 +1,40 @@
+{
+    "name": "codingame",
+    "version": "1.0.0",
+    "description": "",
+    "eslintConfig": {
+        "extends": [
+            "airbnb-base",
+            "prettier"
+        ],
+        "plugins": [
+            "prettier"
+        ],
+        "rules": {
+            "prettier/prettier": "error"
+        },
+        "parser": "babel-eslint"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true,
+        "trailingComma": "all"
+    },
+    "scripts": {
+        "watch": "webpack --watch"
+    },
+    "keywords": [],
+    "author": "Pavel Puchok",
+    "license": "GPL-3.0-or-later",
+    "devDependencies": {
+        "babel-eslint": "^8.2.3",
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-import": "^2.12.0",
+        "eslint-plugin-prettier": "^2.6.0",
+        "prettier": "^1.13.5",
+        "webpack": "^4.12.0",
+        "webpack-cli": "^3.0.7"
+    }
+}
